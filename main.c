@@ -74,4 +74,9 @@ void ConsoleVersion() {
     getchar();
 }
 
-// 直接启动
+// 直接启动控制台版本的主函数
+int main() {
+    // 直接进入控制台版本，不显示菜单
+    ConsoleVersion();
+    return 0;
+}
